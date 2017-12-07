@@ -138,7 +138,7 @@ ul.topnav {
     color: #BD9A53;
     text-decoration: none;
     font-size: 50px;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .header a:hover {
@@ -281,8 +281,11 @@ ul.contact-list i:hover {
 
 @media screen and (max-width: 680px) {
     .resume .resume-category {
+        /* border: 1px solid black; */
         width: 100%;
         padding-left: 10px;
+        margin-left: -12px;
+        
     }
     .container .profile {
         /* border: 2px solid red; */
@@ -441,6 +444,10 @@ a.img:hover {
     .info p {
         margin-left: -40px;
         
+    }
+
+    .description {
+        font-size: 15px;
     }
 
     .info-box {
