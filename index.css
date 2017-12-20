@@ -100,9 +100,9 @@ ul.topnav {
 
 #masthead {
     /* background: #2F8387; */
-    background: url(http://www.reuun.com/data/out/34/402714726-data-wallpapers.jpg);
+    /* background: url(http://www.reuun.com/data/out/34/402714726-data-wallpapers.jpg); */
     /* background: url(https://inform.tmforum.org/wp-content/uploads/2015/11/blue-abstract-virtualization-shutterstock_240678277.jpg); */
-    /* background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/r8K5nG9Pxiyh9wvn6/videoblocks-plexus-beautiful-abstract-background-with-numbers-molecules-and-atoms-technologies-galaxy_rhewrycxb_thumbnail-full01.png); */
+    background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/r8K5nG9Pxiyh9wvn6/videoblocks-plexus-beautiful-abstract-background-with-numbers-molecules-and-atoms-technologies-galaxy_rhewrycxb_thumbnail-full01.png);
     background-size: 1700px 880px;
     height: 880px;;
     display: flex;
