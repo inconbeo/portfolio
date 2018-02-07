@@ -134,6 +134,7 @@ ul.topnav {
 }
 
 .header h2 {
+    margin-top: -20px;
     color: #BD9A53;
     font-size: 40px;
 }
