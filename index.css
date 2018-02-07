@@ -12,6 +12,7 @@ html, body {
 }
 
 
+
 ul.topnav {
     position: fixed;
     /* background-color: #BD9A53; */
@@ -98,17 +99,27 @@ ul.topnav {
     margin-bottom: 0px;
 }
 
+.contact-list {
+  width: 325px;;  
+  background: white;
+  margin: 0 auto;
+  border-radius: 35px;
+  padding-left: 5px;
+  margin-top: 20px;
+}
+
 #masthead {
     /* background: #2F8387; */
     /* background: url(http://www.reuun.com/data/out/34/402714726-data-wallpapers.jpg); */
-    /* background: url(https://inform.tmforum.org/wp-content/uploads/2015/11/blue-abstract-virtualization-shutterstock_240678277.jpg); */
-    background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/r8K5nG9Pxiyh9wvn6/videoblocks-plexus-beautiful-abstract-background-with-numbers-molecules-and-atoms-technologies-galaxy_rhewrycxb_thumbnail-full01.png);
+    background: url(https://apscpp.ubc.ca/wp-content/uploads/workstation-336369_1920.jpg);
+    /* background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/r8K5nG9Pxiyh9wvn6/videoblocks-plexus-beautiful-abstract-background-with-numbers-molecules-and-atoms-technologies-galaxy_rhewrycxb_thumbnail-full01.png); */
     background-size: 1700px 880px;
     height: 880px;;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 0px;
+    
 }
 
 .header {
@@ -135,13 +146,18 @@ ul.topnav {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    border-bottom: 1px solid white;
 }
 
 .contact-list a {
-    color: #BD9A53;
+    color: #BD9A53; 
     text-decoration: none;
     font-size: 50px;
     padding: 0 5px;
+}
+
+.email-address:hover {
+    border-bottom: 1px solid #BD9A53;
 }
 
 .header a:hover {
@@ -157,7 +173,8 @@ ul.contact-list i:hover {
 /*About section */
 
 #about {
-    background: #B69D71;
+    /* background: #B69D71; */
+    background: rgb(201, 120, 147);
     min-height: 100%;
     text-align: center;
     
@@ -321,10 +338,10 @@ ul.contact-list i:hover {
     /* border: 1px solid green; */
     /* max-width: 1200px; */
     margin: 0 auto;
-    background: rgb(206, 99, 106);
+    /* background: rgb(206, 99, 106); */
+    background-color: rgb(235, 158, 185)
     
 }
-
 
 #projects .container {
     /* border: 1px solid black; */
@@ -332,7 +349,7 @@ ul.contact-list i:hover {
     flex-direction: column;
     text-align: center;
     max-width: 1200px;
-}
+ }
 
 .details h2 {
     font-size: 36px;
@@ -354,7 +371,7 @@ ul.contact-list i:hover {
     /* padding: 10px; */
     margin-right: -19px;
     justify-content: center;
-       
+           
 }
 
 .gallery .project {
@@ -415,6 +432,7 @@ ul.contact-list i:hover {
 a.img:hover {
     opacity: 1;
     animation: flash 2s;
+    
 }
 
 @keyframes flash {
@@ -461,7 +479,8 @@ a.img:hover {
 
 /*footer section start here */
 #footer {
-    background: #2F8387;
+    /* background: #2F8387; */
+    background: #3F72AF;
     padding-bottom: 50px;
     height: 850px;
 }
@@ -520,9 +539,9 @@ a.img:hover {
     font-size: 40px;
 }
 
-.contacts-box i:hover {
+/* .contacts-box i:hover {
     background: rgba(0, 0, 0, 0.25);
-}
+} */
 
 .mark {
     margin-top: 160px;
@@ -530,6 +549,8 @@ a.img:hover {
     font-size: 20px;
     
 }
+
+
 
 @media screen and (max-width: 880px) {
     .contacts-box li {
@@ -553,5 +574,5 @@ a.img:hover {
         margin-top: 100px;
     }
 
-    
+ 
 }

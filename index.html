@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
     <!-- <script src="https://use.fortawesome.com/910b449e.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>  
 </head>
 <body>
     <nav>
@@ -22,14 +23,14 @@
             </li>
         </ul>
     </nav>
-
-    <header id="masthead">
+    <section id="masthead">
         <div class="header">
             <h1>QUANG NGUYEN</h1>
             <!-- <h2> I'm a full stack web developer</h2> -->
             <h2><p class="typewrite" data-period="2000" data-type='["Full Stack Web Developer from Atlanta, GA !"]'>
                     <span class="wrap"></span>
                   </p></h2>
+            
             <div class="email">
                 <a class="email-address" href="mailto:quangdeveloper2402@gmail.com">quangdeveloper2402@gmail.com</a>
             </div>
@@ -40,7 +41,7 @@
                 <a href="https://www.twitter.com/inconbeo" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
             </ul>
         </div>
-    </header>
+    </section>
 
     <section id="about">
         <div class="container">
@@ -128,7 +129,7 @@
                             <i class="fa fa-briefcase" aria-hidden="true" style="font-size:25px;"></i>
                         </div>
                         <div class="resume-desc">
-                            <h3 class="experience">EXPERIENCE <span><a href="docs/resume1.pdf" target="_blank" class="resume-link"><span
+                            <h3 class="experience">EXPERIENCE <span><a href="docs/Quang-Developer.pdf" target="_blank" class="resume-link"><span
                                 style="font-variant: small-caps"><i
                                 class="fa fa-download"></i> resume</span></a></span>
                             </h3>
@@ -168,6 +169,38 @@
             </div>
             <div  class="gallery">
                 <ul class="projects-box">
+                    <li class="project">
+                        <a class="img" target="_blank" href="http://mood-cloud.netlify.com/">
+                                <img src="img/mood-cloud.jpg" height="300" width="450">
+                            </a>
+                            <a class="info" target="_blank" href="https://github.com/adpoyao/final-capstone-client">
+                                <div class="info-box">
+                                    <p class="title">Mood-Cloud <i class="fa fa-github" aria-hidden="true"></i></p>
+                                    <p class="description">Mood Cloud provides a means for students to track their<br> 
+                                        moods which are reflected in a D3 Word Cloud<br>
+                                        <i class="fa fa-code" aria-hidden="true"></i> React/Redux,
+                                        Node.js, Express, D3, Socket.io
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        
+                        <li class="project">
+                                <a class="img" target="_blank" href="https://langu-umbala.netlify.com/">
+                                        <img src="img/umbala.jpg" height="300" width="450">
+                                    </a>
+                                    <a class="info" target="_blank" href="https://github.com/edemahruh/spaced-repetition-client">
+                                        <div class="info-box">
+                                            <p class="title">Langu-Umbala <i class="fa fa-github" aria-hidden="true"></i></p>
+                                            <p class="description">This app allows users to learn Vietnamese words<br> 
+                                                through space-repetition<br>
+                                                <i class="fa fa-code" aria-hidden="true"></i> React/Redux,
+                                                Node.js, Express
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>    
+
                     <li class="project">
                         <a class="img" target="_blank" href="https://etrendy.netlify.com/">
                             <img src="img/etrendy3.jpg" height="300" width="450">
@@ -230,9 +263,6 @@
                     <li class="contact"><a href="mailto:qtn2@njit.edu" target="_blank"><i class="fa fa-envelope fa-fw"></i>
                         <span class="contact-info">qtn2@njit.edu</span></a>
                     </li>
-                    <li class="contact"><a href="docs/resume1.pdf" target="_blank"><i class="fa fa-file-text fa-fw"></i>
-                        <span class="contact-info">Download Resume</span></a>
-                    </li>
                     <li class="contact"><a href="https://github.com/inconbeo" target="_blank"><i class="fa fa-github fa-fw"></i>
                         <span class="contact-info">github.com/inconbeo</span></a>
                     </li>
@@ -242,14 +272,18 @@
                     <li class="contact"><a href="https://twitter.com/inconbeo" target="_blank"><i class="fa fa-twitter fa-fw"></i>
                         <span class="contact-info">twitter.com/inconbeo</span></a>
                     </li>
+                    <li class="contact"><a href="docs/Quang-Developer.pdf" target="_blank"><i class="fa fa-file-text fa-fw"></i>
+                        <span class="contact-info">Download Resume</span></a>
+                    </li>
                 </ul>
             </div>
             <p class="mark">
                 <i class="fa fa-copyright"></i> Quang Nguyen 2016
             </p>
-        </div>
-
+       
     </section>
+
+</div>
 
     <script src="jquery-3.1.1.min.js"></script>
     <script src="index.js"></script>
