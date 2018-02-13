@@ -176,7 +176,7 @@ ul.contact-list i:hover {
 /*About section */
 
 #about {
-    background: rgb(212, 139, 164); 
+    background: #d5b388; 
     /* background: rgb(201, 120, 147); */
     min-height: 100%;
     text-align: center;
@@ -342,7 +342,7 @@ ul.contact-list i:hover {
     /* max-width: 1200px; */
     margin: 0 auto;
     /* background: rgb(206, 99, 106); */
-    background-color: rgb(235, 158, 185)
+    background-color: rgb(220, 195, 163)
     
 }
 
@@ -492,7 +492,7 @@ a.img:hover {
 /*footer section start here */
 #footer {
     /* background: #2F8387; */
-    background: rgb(156, 87, 139);
+    background: rgb(104, 103, 103);
     padding-bottom: 50px;
     height: 850px;
 }
